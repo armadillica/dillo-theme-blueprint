@@ -1,6 +1,6 @@
 # Dillo Theme Blueprint
 
-This is a Dillo theme in its simplest form. Use it to start your making own themes.
+This is a [Dillo](http://dillo.space) theme in its simplest form. Use it to start your making own themes.
 
 Download this repo and put it next to your Dillo install. Now edit the *config.json* file next to this readme:
 ```
@@ -20,4 +20,4 @@ That's it! Once you run ```gulp``` it will compile the theme in the right place,
 * **/scripts/uglify** : All the javascript files here will be compiled minified into a ingle tutti.min.js file (that Dillo always looks for, so don't put anything here or copy over the scripts/uglify files from the original theme if you want to keep everything working the same). All files *outside* /uglify will be compiled+minified into their own individual files, with the extension '.min.js'. For example if you make /scripts/banana.js, it will be compiled into banana.min.js in the scripts folder in Dillo.
 
 ### Questions
-Let us know if something goes wrong on Twitter [@dillospace](https://twitter/dillospace)
+Let us know if something goes wrong on Twitter [@dillospace](https://twitter.com/dillospace)
